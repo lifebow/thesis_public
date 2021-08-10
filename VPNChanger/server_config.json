@@ -1,0 +1,16 @@
+{
+
+  "vpnClients":
+  [
+    {
+      "name": "client1",
+      "token": "client 1 token",
+      "initIP": "127.0.0.1"
+    },
+    {
+      "name": "client2",
+      "token": "client 1 token",
+      "initIP": "127.0.0.1"
+    }
+  ]
+}

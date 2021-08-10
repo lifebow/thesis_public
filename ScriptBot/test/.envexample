@@ -1,0 +1,6 @@
+ScriptCheckFolder=/home/lifebow/Documents/testing/efiens-attack-defense-framework/Source/ScriptBot/ServiceCheck
+Jwt=Scripbot1
+RabbitmqHost=localhost
+RabbitmqUser=guest
+RabbitmqPass=guest
+UrlLink=http://127.0.0.1:8089/responseData

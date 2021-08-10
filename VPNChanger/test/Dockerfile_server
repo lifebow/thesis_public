@@ -1,0 +1,11 @@
+FROM ubuntu
+
+RUN apt update
+RUN apt install wireguard -y
+COPY wg0_server.conf /etc/wireguard/wg0.conf
+RUN apt install iputils-ping -y
+RUN apt install -y iproute2
+RUN apt install tcpdump -y
+RUN apt install net-tools
+
+CMD wg-quick up wg0;;/Documents/vpnChangerServer;cat

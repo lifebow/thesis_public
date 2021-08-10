@@ -1,0 +1,384 @@
+version: "3.1"
+services:
+  server:
+    build:
+      context: .
+      dockerfile: Dockerfile_server
+    cap_add:
+      - NET_ADMIN
+    stdin_open: true
+    volumes: 
+      - ./server/:/etc/wireguard/
+      - ./server_script/:/Documents/
+    tty: true
+    networks:
+      testing_net:
+          ipv4_address: 172.28.0.2
+    ports: 
+      - 41194:41194
+  client1:
+    image: client_v1
+    volumes: 
+      - ./client_1/:/etc/wireguard/
+      - ./client_script/:/Documents/
+    networks:
+      testing_net:
+          ipv4_address: 172.28.0.3
+    cap_add:
+      - NET_ADMIN
+    stdin_open: true
+    tty: true
+  client2:
+    image: client_v1
+    volumes: 
+      - ./client_2/:/etc/wireguard/
+      - ./client_script/:/Documents/
+    networks:
+      testing_net:
+          ipv4_address: 172.28.0.4
+    cap_add:
+      - NET_ADMIN
+    stdin_open: true
+    tty: true
+  client3:
+    image: client_v1
+    volumes: 
+      - ./client_3/:/etc/wireguard/
+      - ./client_script/:/Documents/
+    networks:
+      testing_net:
+          ipv4_address: 172.28.0.5
+    cap_add:
+      - NET_ADMIN
+    stdin_open: true
+    tty: true
+  client4:
+    image: client_v1
+    volumes: 
+      - ./client_4/:/etc/wireguard/
+      - ./client_script/:/Documents/
+    networks:
+      testing_net:
+          ipv4_address: 172.28.0.6
+    cap_add:
+      - NET_ADMIN
+    stdin_open: true
+    tty: true
+  client5:
+    image: client_v1
+    volumes: 
+      - ./client_5/:/etc/wireguard/
+      - ./client_script/:/Documents/
+    networks:
+      testing_net:
+          ipv4_address: 172.28.0.7
+    cap_add:
+      - NET_ADMIN
+    stdin_open: true
+    tty: true
+  client6:
+    image: client_v1
+    volumes: 
+      - ./client_6/:/etc/wireguard/
+      - ./client_script/:/Documents/
+    networks:
+      testing_net:
+          ipv4_address: 172.28.0.8
+    cap_add:
+      - NET_ADMIN
+    stdin_open: true
+    tty: true
+  client7:
+    image: client_v1
+    volumes: 
+      - ./client_7/:/etc/wireguard/
+      - ./client_script/:/Documents/
+    networks:
+      testing_net:
+          ipv4_address: 172.28.0.9
+    cap_add:
+      - NET_ADMIN
+    stdin_open: true
+    tty: true
+  client8:
+    image: client_v1
+    volumes: 
+      - ./client_8/:/etc/wireguard/
+      - ./client_script/:/Documents/
+    networks:
+      testing_net:
+          ipv4_address: 172.28.0.10
+    cap_add:
+      - NET_ADMIN
+    stdin_open: true
+    tty: true
+  client9:
+    image: client_v1
+    volumes: 
+      - ./client_9/:/etc/wireguard/
+      - ./client_script/:/Documents/
+    networks:
+      testing_net:
+          ipv4_address: 172.28.0.11
+    cap_add:
+      - NET_ADMIN
+    stdin_open: true
+    tty: true
+  client10:
+    image: client_v1
+    volumes: 
+      - ./client_10/:/etc/wireguard/
+      - ./client_script/:/Documents/
+    networks:
+      testing_net:
+          ipv4_address: 172.28.0.12
+    cap_add:
+      - NET_ADMIN
+    stdin_open: true
+    tty: true
+  client11:
+    image: client_v1
+    volumes: 
+      - ./client_11/:/etc/wireguard/
+      - ./client_script/:/Documents/
+    networks:
+      testing_net:
+          ipv4_address: 172.28.0.13
+    cap_add:
+      - NET_ADMIN
+    stdin_open: true
+    tty: true
+  client12:
+    image: client_v1
+    volumes: 
+      - ./client_12/:/etc/wireguard/
+      - ./client_script/:/Documents/
+    networks:
+      testing_net:
+          ipv4_address: 172.28.0.14
+    cap_add:
+      - NET_ADMIN
+    stdin_open: true
+    tty: true
+  client13:
+    image: client_v1
+    volumes: 
+      - ./client_13/:/etc/wireguard/
+      - ./client_script/:/Documents/
+    networks:
+      testing_net:
+          ipv4_address: 172.28.0.15
+    cap_add:
+      - NET_ADMIN
+    stdin_open: true
+    tty: true
+  client14:
+    image: client_v1
+    volumes: 
+      - ./client_14/:/etc/wireguard/
+      - ./client_script/:/Documents/
+    networks:
+      testing_net:
+          ipv4_address: 172.28.0.16
+    cap_add:
+      - NET_ADMIN
+    stdin_open: true
+    tty: true
+  client15:
+    image: client_v1
+    volumes: 
+      - ./client_15/:/etc/wireguard/
+      - ./client_script/:/Documents/
+    networks:
+      testing_net:
+          ipv4_address: 172.28.0.17
+    cap_add:
+      - NET_ADMIN
+    stdin_open: true
+    tty: true
+  client16:
+    image: client_v1
+    volumes: 
+      - ./client_16/:/etc/wireguard/
+      - ./client_script/:/Documents/
+    networks:
+      testing_net:
+          ipv4_address: 172.28.0.18
+    cap_add:
+      - NET_ADMIN
+    stdin_open: true
+    tty: true
+  client17:
+    image: client_v1
+    volumes: 
+      - ./client_17/:/etc/wireguard/
+      - ./client_script/:/Documents/
+    networks:
+      testing_net:
+          ipv4_address: 172.28.0.19
+    cap_add:
+      - NET_ADMIN
+    stdin_open: true
+    tty: true
+  client18:
+    image: client_v1
+    volumes: 
+      - ./client_18/:/etc/wireguard/
+      - ./client_script/:/Documents/
+    networks:
+      testing_net:
+          ipv4_address: 172.28.0.20
+    cap_add:
+      - NET_ADMIN
+    stdin_open: true
+    tty: true
+  client19:
+    image: client_v1
+    volumes: 
+      - ./client_19/:/etc/wireguard/
+      - ./client_script/:/Documents/
+    networks:
+      testing_net:
+          ipv4_address: 172.28.0.21
+    cap_add:
+      - NET_ADMIN
+    stdin_open: true
+    tty: true
+  client20:
+    image: client_v1
+    volumes: 
+      - ./client_20/:/etc/wireguard/
+      - ./client_script/:/Documents/
+    networks:
+      testing_net:
+          ipv4_address: 172.28.0.22
+    cap_add:
+      - NET_ADMIN
+    stdin_open: true
+    tty: true
+  client21:
+    image: client_v1
+    volumes: 
+      - ./client_21/:/etc/wireguard/
+      - ./client_script/:/Documents/
+    networks:
+      testing_net:
+          ipv4_address: 172.28.0.23
+    cap_add:
+      - NET_ADMIN
+    stdin_open: true
+    tty: true
+  client22:
+    image: client_v1
+    volumes: 
+      - ./client_22/:/etc/wireguard/
+      - ./client_script/:/Documents/
+    networks:
+      testing_net:
+          ipv4_address: 172.28.0.24
+    cap_add:
+      - NET_ADMIN
+    stdin_open: true
+    tty: true
+  client23:
+    image: client_v1
+    volumes: 
+      - ./client_23/:/etc/wireguard/
+      - ./client_script/:/Documents/
+    networks:
+      testing_net:
+          ipv4_address: 172.28.0.25
+    cap_add:
+      - NET_ADMIN
+    stdin_open: true
+    tty: true
+  client24:
+    image: client_v1
+    volumes: 
+      - ./client_24/:/etc/wireguard/
+      - ./client_script/:/Documents/
+    networks:
+      testing_net:
+          ipv4_address: 172.28.0.26
+    cap_add:
+      - NET_ADMIN
+    stdin_open: true
+    tty: true
+  client25:
+    image: client_v1
+    volumes: 
+      - ./client_25/:/etc/wireguard/
+      - ./client_script/:/Documents/
+    networks:
+      testing_net:
+          ipv4_address: 172.28.0.27
+    cap_add:
+      - NET_ADMIN
+    stdin_open: true
+    tty: true
+  client26:
+    image: client_v1
+    volumes: 
+      - ./client_26/:/etc/wireguard/
+      - ./client_script/:/Documents/
+    networks:
+      testing_net:
+          ipv4_address: 172.28.0.28
+    cap_add:
+      - NET_ADMIN
+    stdin_open: true
+    tty: true
+  client27:
+    image: client_v1
+    volumes: 
+      - ./client_27/:/etc/wireguard/
+      - ./client_script/:/Documents/
+    networks:
+      testing_net:
+          ipv4_address: 172.28.0.29
+    cap_add:
+      - NET_ADMIN
+    stdin_open: true
+    tty: true
+  client28:
+    image: client_v1
+    volumes: 
+      - ./client_28/:/etc/wireguard/
+      - ./client_script/:/Documents/
+    networks:
+      testing_net:
+          ipv4_address: 172.28.0.30
+    cap_add:
+      - NET_ADMIN
+    stdin_open: true
+    tty: true
+  client29:
+    image: client_v1
+    volumes: 
+      - ./client_29/:/etc/wireguard/
+      - ./client_script/:/Documents/
+    networks:
+      testing_net:
+          ipv4_address: 172.28.0.31
+    cap_add:
+      - NET_ADMIN
+    stdin_open: true
+    tty: true
+  client30:
+    image: client_v1
+    volumes: 
+      - ./client_30/:/etc/wireguard/
+      - ./client_script/:/Documents/
+    networks:
+      testing_net:
+          ipv4_address: 172.28.0.32
+    cap_add:
+      - NET_ADMIN
+    stdin_open: true
+    tty: true
+networks:
+    testing_net:
+        ipam:
+            driver: default
+            config:
+                - subnet: 172.28.0.0/16

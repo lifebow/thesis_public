@@ -1,0 +1,121 @@
+{"vpnClients":[{
+      "name": "client1",
+      "token": "client 1 token",
+      "initIP": "192.168.6.2"
+    },{
+      "name": "client2",
+      "token": "client 2 token",
+      "initIP": "192.168.6.3"
+    },{
+      "name": "client3",
+      "token": "client 3 token",
+      "initIP": "192.168.6.4"
+    },{
+      "name": "client4",
+      "token": "client 4 token",
+      "initIP": "192.168.6.5"
+    },{
+      "name": "client5",
+      "token": "client 5 token",
+      "initIP": "192.168.6.6"
+    },{
+      "name": "client6",
+      "token": "client 6 token",
+      "initIP": "192.168.6.7"
+    },{
+      "name": "client7",
+      "token": "client 7 token",
+      "initIP": "192.168.6.8"
+    },{
+      "name": "client8",
+      "token": "client 8 token",
+      "initIP": "192.168.6.9"
+    },{
+      "name": "client9",
+      "token": "client 9 token",
+      "initIP": "192.168.6.10"
+    },{
+      "name": "client10",
+      "token": "client 10 token",
+      "initIP": "192.168.6.11"
+    },{
+      "name": "client11",
+      "token": "client 11 token",
+      "initIP": "192.168.6.12"
+    },{
+      "name": "client12",
+      "token": "client 12 token",
+      "initIP": "192.168.6.13"
+    },{
+      "name": "client13",
+      "token": "client 13 token",
+      "initIP": "192.168.6.14"
+    },{
+      "name": "client14",
+      "token": "client 14 token",
+      "initIP": "192.168.6.15"
+    },{
+      "name": "client15",
+      "token": "client 15 token",
+      "initIP": "192.168.6.16"
+    },{
+      "name": "client16",
+      "token": "client 16 token",
+      "initIP": "192.168.6.17"
+    },{
+      "name": "client17",
+      "token": "client 17 token",
+      "initIP": "192.168.6.18"
+    },{
+      "name": "client18",
+      "token": "client 18 token",
+      "initIP": "192.168.6.19"
+    },{
+      "name": "client19",
+      "token": "client 19 token",
+      "initIP": "192.168.6.20"
+    },{
+      "name": "client20",
+      "token": "client 20 token",
+      "initIP": "192.168.6.21"
+    },{
+      "name": "client21",
+      "token": "client 21 token",
+      "initIP": "192.168.6.22"
+    },{
+      "name": "client22",
+      "token": "client 22 token",
+      "initIP": "192.168.6.23"
+    },{
+      "name": "client23",
+      "token": "client 23 token",
+      "initIP": "192.168.6.24"
+    },{
+      "name": "client24",
+      "token": "client 24 token",
+      "initIP": "192.168.6.25"
+    },{
+      "name": "client25",
+      "token": "client 25 token",
+      "initIP": "192.168.6.26"
+    },{
+      "name": "client26",
+      "token": "client 26 token",
+      "initIP": "192.168.6.27"
+    },{
+      "name": "client27",
+      "token": "client 27 token",
+      "initIP": "192.168.6.28"
+    },{
+      "name": "client28",
+      "token": "client 28 token",
+      "initIP": "192.168.6.29"
+    },{
+      "name": "client29",
+      "token": "client 29 token",
+      "initIP": "192.168.6.30"
+    },{
+      "name": "client30",
+      "token": "client 30 token",
+      "initIP": "192.168.6.31"
+    }]}

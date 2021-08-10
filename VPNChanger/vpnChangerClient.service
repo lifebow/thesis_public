@@ -1,0 +1,10 @@
+[Unit]
+Description=VPN Changer Client service
+Requires=multi-user.target Network.target
+After=multi-user.target Network.target nss-lookup.target
+
+
+[Service]
+Type=simple
+ExecStart=/VPNChanger/Client/vpnChangerClient /VPNChanger/Client/socketlisten
+Restart=on-failure
